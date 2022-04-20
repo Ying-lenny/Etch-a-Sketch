@@ -5,13 +5,18 @@
 
 #container {
   display: grid;
-  grid-gap: 1em;
   grid-template-rows: repeat(var(--grid-rows), 1fr);
   grid-template-columns: repeat(var(--grid-cols), 1fr);
+  width: 60%;
+  margin: auto;
 }
 
 .grid-item {
-  padding: 1em;
+  padding: 1em 1em;
   border: 1px solid #ddd;
   text-align: center;
+}
+
+.my-color-class {
+  background-color: black;
 }
